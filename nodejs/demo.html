@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loader-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+        }
+        .loader{
+            border: 7px solid #8f8c8c;
+            height: 60px;
+            width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            border-radius: 50%;
+            animation-name: loader;
+            animation-duration: 700ms;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count:infinite;
+        }
+        .loader>div{
+            border: 7px solid rgb(143, 138, 138);
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            animation-name: loaderInner;
+            animation-duration: 1000ms;
+            animation-timing-function:ease-in;
+            animation-iteration-count:infinite;
+        }
+        @keyframes loader {
+            0%{
+                border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 0;
+            }10%{
+                border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -36deg;
+            }
+            20%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+
+                 rotate: -72deg;
+            }30%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -108deg;
+            }40%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -144deg;
+            }50%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -180deg;
+            }60%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -216deg;
+            }
+            70%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -252deg;
+            }
+            80%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -288deg;
+            }
+            90%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate:324deg;
+            }
+            100%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: -360deg;
+            }
+            
+        }
+        @keyframes loaderInner {
+            0%{
+                border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 0;
+            }10%{
+                border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 36deg;
+            }
+            20%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+
+                 rotate: 72deg;
+            }30%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 108deg;
+            }40%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 144deg;
+            }50%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 180deg;
+            }60%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 216deg;
+            }
+            70%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 252deg;
+            }
+            80%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 288deg;
+            }
+            90%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate:324deg;
+            }
+            100%{
+                 border-right: 7px solid #a52a2a;
+                 border-top: 7px solid #a52a2a;
+                 rotate: 360deg;
+            }
+            
+        }
+    </style>
+</head>
+<body >
+    <div class="loader-container">
+        <div class="loader">
+            <div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
